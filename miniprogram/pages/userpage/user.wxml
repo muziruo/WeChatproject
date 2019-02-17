@@ -1,0 +1,24 @@
+<!--miniprogram/pages/userpage/user.wxml-->
+<view class='userpage'>
+  <view class='userinfo'>
+    <image class='user-avatar' src='{{avatarUrl}}' mode='aspectFill'></image>
+    <text class='user-name'>{{userinfo['username']}}</text>
+    <text class='user-company'>{{userinfo['company']}}</text>
+    <text class='user-role'>{{userinfo['right']}}</text>
+  </view>
+</view>
+
+<block wx:for='{{functions}}' wx:for-item='functioninfo' wx:for-index='index'>
+  <view class='functionlist' bindtap='gotofunction' data-index='{{index}}'>
+    <image src='../../images/icon_component.png'  class='functionimage'></image>
+    <text class='functiontitle'>{{functioninfo.title}}</text>
+  </view>
+</block>
+
+<view class='bottomarea'>
+  <button class='logout' type='warn' bindtap='userlogout'>注销</button>
+</view>
+
+<view class='bottomtextarea'>
+  <text class='bottomtext'>power by muzi</text>
+</view>

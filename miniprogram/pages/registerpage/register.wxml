@@ -1,0 +1,28 @@
+<!--miniprogram/pages/registerpage/register.wxml-->
+<block class='infolist' wx:for='{{infolist}}' wx:for-item='infoitem'>
+  <view class='line' class='listarea'>
+    <text class='infotitle'>{{infoitem.title}}</text>
+    <text class='infodetail'>{{infoitem.info}}</text>
+  </view>
+</block>
+
+<view class='tiparea'>
+  <text class='tipinfo'>{{tipinfo}}</text>
+  <text class='tipfinished'>{{tipfinished}}</text>
+</view>
+
+<view class='infoinputarea'>
+  <view class='stateinputarea'>
+  <textarea class='completestate' placeholder='若完成填写完成情况,若未完成则填写原因' maxlength='200' show-confirm-bar='true' bindinput='gettext'></textarea>
+  </view>
+</view>
+
+
+<view class='bottombutton'>
+  <button class='correct' disabled='{{disable}}' type='primary' bindtap='finished'>已完成</button>
+  <button class='error' disabled='{{disable}}' type='warn' bindtap='unfinished'>未完成</button>
+</view>
+
+<view class='bottomarea'>
+  <text class='bottomtext'>power by muzi</text>
+</view>

@@ -1,0 +1,48 @@
+{
+  "pages": [
+    "pages/loginpage/login",
+    "pages/userpage/user",
+    "pages/completeregister/completeregister",
+    "pages/transportexamine/transportexamine",
+    "pages/loadexamine/loadexamine",
+    "pages/index/index",
+    "pages/loadpage/load",
+    "pages/userConsole/userConsole",
+    "pages/storageConsole/storageConsole",
+    "pages/databaseGuide/databaseGuide",
+    "pages/addFunction/addFunction",
+    "pages/deployFunctions/deployFunctions",
+    "pages/chooseLib/chooseLib",
+    "pages/functionpage/functions",
+    "pages/registerpage/register"
+  ],
+  "window": {
+    "backgroundColor": "#404040",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#F6F6F6",
+    "navigationBarTitleText": "港口审批系统",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "发货审批",
+        "iconPath": "images/yunshu.png",
+        "selectedIconPath": "images/yunshu-selected.png"
+      },
+      {
+        "pagePath": "pages/loadpage/load",
+        "text": "装卸审批",
+        "iconPath": "images/Ship.png",
+        "selectedIconPath": "images/Ship-selected.png"
+      },
+      {
+        "pagePath": "pages/userpage/user",
+        "text": "个人中心",
+        "iconPath": "images/user.png",
+        "selectedIconPath": "images/user-selected.png"
+      }
+    ]
+  }
+}

@@ -1,0 +1,14 @@
+<!--miniprogram/pages/loginpage/login.wxml-->
+<view class='logoarea'>
+  <image class='logo' src='./logo.png' mode='aspectFill'></image>
+  <text class='logotext'>港 口 管 理</text>
+</view>
+
+<view class='inputarea'>
+  <input class='account' placeholder='请输入账号' maxlength='18' type='text' bindinput='getaccount' value='{{accountinfo}}'></input>
+  <input class='password' placeholder='请输入密码' password='true' maxlength='18' bindinput='getpassword' value='{{passwordinfo}}'></input>
+</view>
+
+<view class='buttonarea'>
+  <button class='loginbutton' bindtap='userlogin' open-type='getUserInfo'>登录</button>
+</view>

@@ -1,0 +1,34 @@
+/* miniprogram/pages/functionpage/functions.wxss */
+.aboutinfo {
+  margin-top: 200rpx;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.logo {
+  width: 150rpx;
+  height: 150rpx;
+  margin: 20rpx;
+  border-radius: 50%;
+}
+
+.logotext {
+  font-size: 30rpx;
+  margin: 5rpx;
+}
+
+.version {
+  font-size: 25rpx;
+  margin: 5rpx;
+}
+
+.copyright {
+  font-size: 25rpx;
+  margin: 5rpx;
+}
+
+.email {
+  font-size: 25rpx;
+  margin: 5rpx;
+}

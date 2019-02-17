@@ -1,0 +1,16 @@
+<!--miniprogram/pages/loadpage/load.wxml-->
+<block wx:for='{{networkinfo}}' wx:for-item='iteminfo' wx:for-index='index'>
+  <view class='externalarea' bindtap='gotoexamine' data-index='{{index}}'>
+    <view class='firstarea'>
+      <text class='shipname'>{{iteminfo.cnameename}}</text>
+    </view>
+    <view class='secondarea'>
+      <text class='agencyname'>{{iteminfo.shipagency}}</text>
+      <text class='ownername'>{{iteminfo.goodsowner}}</text>
+    </view>
+  </view>
+</block>
+
+<view class='bottomarea'>
+  <text class='bottomtext'>{{bottomtext}}</text>
+</view>

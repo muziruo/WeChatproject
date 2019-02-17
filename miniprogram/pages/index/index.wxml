@@ -1,0 +1,16 @@
+<!--index.wxml-->
+<view wx:for='{{networkinfo}}' wx:for-item='iteminfo' wx:for-index='index'>
+  <view class='externalarea' bindtap='gotoexamine' data-idx='{{index}}'>
+    <view class='firstarea'>
+      <text class='companyname'>{{iteminfo.company}}</text>
+    </view>
+    <view class='secondarea'>
+      <text class='agencyname'>{{iteminfo.shipagency}}</text>
+      <text class='consignername'>{{iteminfo.consigner}}</text>
+    </view>
+  </view>
+</view>
+
+<view class='bottomarea'>
+  <text class='bottomtext'>{{bottomtext}}</text>
+</view>

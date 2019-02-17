@@ -1,0 +1,52 @@
+/* miniprogram/pages/loginpage/login.wxss */
+.logoarea {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 100rpx;
+}
+
+.logo {
+  width: 180rpx;
+  height: 180rpx;
+  margin: 20rpx;
+  border-radius: 50%;
+}
+
+.logotext {
+  font-size: 30rpx;
+}
+
+.inputarea {
+  margin-top: 150rpx;
+  margin-left: 100rpx;
+  margin-right: 100rpx;
+}
+
+.account {
+  height: 100rpx;
+  font-size: 30rpx;
+  background: #f4f4f4;
+  border-radius: 50rpx;
+  text-align: center;
+}
+
+.password {
+  height: 100rpx;
+  font-size: 30rpx;
+  margin-top: 50rpx;
+  background: #f4f4f4;
+  border-radius: 50rpx;
+  text-align: center;
+}
+
+.buttonarea {
+  margin-top: 100rpx;
+}
+
+.loginbutton {
+  width: 80%;
+  background-color: #1fa115;
+  color: #fff;
+  font-size: 30rpx;
+}

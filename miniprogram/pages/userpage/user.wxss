@@ -1,0 +1,88 @@
+/* miniprogram/pages/userpage/user.wxss */
+.userpage {
+  margin-top: 100rpx;
+}
+
+.userinfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.user-avatar {
+  width: 128rpx;
+  height: 128rpx;
+  margin: 20rpx;
+  border-radius: 50%;
+}
+
+.user-name {
+  font-size: 40rpx;
+  color: #404040;
+  margin: 15rpx;
+  margin-top: 30rpx;
+}
+
+.user-company {
+  font-size: 30rpx;
+  color: #404040;
+  margin: 15rpx;
+}
+
+.user-role {
+  font-size: 30rpx;
+  color: #404040;
+  margin: 15rpx;
+}
+
+.functionlist {
+  height: 100rpx;
+  margin: 5rpx;
+  margin-top: 20rpx;
+  margin-left: 40rpx;
+  margin-right: 40rpx;
+  display: flex;
+  flex-direction: row;
+  background: #f4f4f4;
+  align-items: center;
+  border-radius: 20rpx;
+}
+
+.functionimage {
+  margin: 5rpx;
+  margin-left: 40rpx;
+  width: 40rpx;
+  height: 40rpx;
+}
+
+.functiontitle {
+  margin-left: 35rpx;
+  font-size: 30rpx;
+  color: #404040;
+}
+
+.buttomarea {
+  margin: 30rpx;
+  margin-left: 35rpx;
+  margin-right: 35rpx;
+}
+
+.logout {
+  margin-top: 40rpx;
+  width: 90%;
+  font-size: 30rpx;
+}
+
+.bottomtextarea {
+  margin-top: 50rpx;
+  height: 30rpx;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.bottomtext {
+  margin: 5rpx;
+  font-size: 20rpx;
+  color: #404040;
+}

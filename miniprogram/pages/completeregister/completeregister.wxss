@@ -1,0 +1,81 @@
+/* miniprogram/pages/completeregister/completeregister.wxss */
+.toparea {
+  margin: 30rpx;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.numberinput {
+  width: 100%;
+  background-color: #f4f4f4;
+  font-size: 30rpx;
+  color: #404040;
+  border-radius: 10rpx;
+}
+
+.searchbutton {
+  font-size: 30rpx;
+  margin-top: 20rpx;
+  width: 100%;
+  background-color: #1fa115;
+  border-radius: 15rpx;
+  color: #fff;
+}
+
+.bottomarea {
+  margin-top: 20rpx;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.tiptext {
+  font-size: 25rpx;
+  color: #404040;
+}
+
+.externalarea {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #f4f4f4;
+  margin-top: 20rpx;
+  margin-left: 30rpx;
+  margin-right: 30rpx;
+  border-radius: 20rpx;
+}
+
+.firstline {
+  margin: 20rpx;
+}
+
+.secondline {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 20rpx;
+}
+
+.firstlineinfo {
+  font-size: 35rpx;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.secondlineinfo {
+  font-size: 30rpx;
+  color: #404040;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.secondlineinfo2 {
+  font-size: 30rpx;
+  color: #404040;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}

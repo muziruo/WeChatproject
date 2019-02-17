@@ -1,0 +1,94 @@
+/* miniprogram/pages/transportexamine/transportexamine.wxss */
+.transportlist {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 30rpx;
+  margin-left: 35rpx;
+  margin-right: 35rpx;
+}
+
+.transporttitle {
+  font-size: 30rpx;
+  color: #404040;
+  white-space: nowrap;
+}
+
+.transportinfo {
+  font-size: 30rpx;
+  color: #404040;
+  margin-left: 20rpx;
+}
+
+.inputarea {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 30rpx;
+}
+
+.littletitle {
+  font-size: 20rpx;
+  color: #404040;
+  margin: 5rpx;
+}
+
+.infoinputarea {
+  width: 100%;
+}
+
+.workplaceinput {
+  width: 100%;
+  background: #f4f4f4;
+  font-size: 30rpx;
+  border-radius: 10rpx;
+  height: 50rpx;
+}
+
+.pickerinfo {
+  font-size: 30rpx;
+  color: #404040;
+  background-color: #f4f4f4;
+  margin: 5rpx;
+  height: 50rpx;
+  border-radius: 10rpx;
+}
+
+.examineinput {
+  width: 100%;
+  background: #f4f4f4;
+  height: 200rpx;
+  font-size: 30rpx;
+  border-radius: 10rpx;
+}
+
+.buttonarea {
+  margin-left: 30rpx;
+  margin-right: 30rpx;
+  margin-bottom: 30rpx;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.agree {
+  width: 40%;
+}
+
+.reject {
+  width: 40%;
+}
+
+.bottomtextarea {
+  margin-top: 50rpx;
+  height: 30rpx;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.bottomtext {
+  margin: 5rpx;
+  font-size: 20rpx;
+  color: #404040;
+}

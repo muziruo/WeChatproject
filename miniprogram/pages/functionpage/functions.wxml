@@ -1,0 +1,8 @@
+<!--miniprogram/pages/functionpage/functions.wxml-->
+<view class='aboutinfo'>
+  <image src='../loginpage/logo.png' class='logo'></image>
+  <text class='logotext'>港 口 管 理</text>
+  <text class='version'>Version 1.0</text>
+  <text class='copyright'>Copyright @ 2019 muzi</text>
+  <text class='email'>email: muziruo.com@gmail.com</text>
+</view>

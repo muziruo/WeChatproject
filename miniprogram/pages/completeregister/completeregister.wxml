@@ -1,0 +1,21 @@
+<!--miniprogram/pages/completeregister/completeregister.wxml-->
+<view class='toparea'>
+  <input class='numberinput' placeholder='请输入合同(提运单)编号' type='text' bindinput='getnumber'></input>
+  <button class='searchbutton' bindtap='searchorder'>搜索</button>
+</view>
+
+<block class='orderlist' wx:for='{{orderlist}}' wx:for-item='iteminfo'>
+  <view class='externalarea' bindtap='gotregister'>
+    <view class='firstline'> 
+      <text class='firstlineinfo'>{{info1}}</text>
+    </view>
+    <view class='secondline'>
+      <text class='secondlineinfo'>{{info2}}</text>
+      <text class='secondlineinfo2'>{{info3}}</text>
+    </view>
+  </view>
+</block>
+
+<view class='bottomarea'>
+  <text class='tiptext'>{{tiptext}}</text>
+</view>

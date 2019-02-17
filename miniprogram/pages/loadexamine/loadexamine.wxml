@@ -1,0 +1,44 @@
+<!--miniprogram/pages/loadexamine/loadexamine.wxml-->
+<block wx:for='{{loadlist}}' wx:for-item='loadinfo'>
+  <view class='infolist'>
+    <text class='listtitle'>{{loadinfo.title}}</text>
+    <text class='listinfo'>{{loadinfo.info}}</text>
+  </view>
+</block>
+
+<view class='inputarea' wx-if='{{isAdtor}}'>
+
+  <view class='infoinputarea'>
+    <text class='littletitle'>工作地点</text>
+    <input class='workplaceinput' placeholder='请输入工作地点' bindinput='getworkplace'></input>
+  </view>
+
+  <view class='infoinputarea'>
+    <text class='littletitle'>日期</text>
+    <picker mode='date' value='{{workdate}}' start='2019-01-01'   end='2099-01-01' class='picker' bindchange='datechange'>
+      <view class='pickerinfo'>{{workdate}}</view>
+    </picker>
+  </view>
+
+  <view class='infoinputarea'>
+    <text class='littletitle'>时间</text>
+    <picker mode='time' value='{{worktime}}' bindchange='timechange'>
+      <view class='pickerinfo'>{{worktime}}</view>
+    </picker>
+  </view>
+
+
+  <view class='infoinputarea'>
+    <text class='littletitle'>审批意见</text>
+    <textarea class='examineinput' placeholder='请输入审批意见' maxlength='200' show-confirm-bar='true' bindinput='updateopinion'></textarea>
+  </view>
+</view>
+
+<view class='buttonarea'>
+  <button class='agree' type='primary' bindtap='agreeapply'>同意</button>
+  <button class='reject' type='warn' bindtap='rejectapply'>驳回</button>
+</view>
+
+<view class='bottomtextarea'>
+  <text class='bottomtext'>power by muzi</text>
+</view>
